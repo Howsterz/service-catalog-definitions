@@ -20,7 +20,7 @@ links:
 repos:
   - name: Source
     provider: github
-    url: https://github.com/Howsterz/service-catalog-definitions/frontend.yaml
+    url: https://github.com/Howsterz/service-catalog-definitions/blob/9e2ff63506f1371c9b8c4ae5ed8dc770acacae9e/frontend/service.datadog.yaml
 docs:
   - name: Deployment Information
     provider: link

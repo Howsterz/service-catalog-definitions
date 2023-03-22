@@ -1,0 +1,33 @@
+schema-version: v2
+dd-service: frontend
+team: QA
+contacts:
+  - type: slack
+    contact: https://dd.slack.com/archives/C04UDN8SZFH
+links:
+  - name: Demo Dashboard
+    type: dashboard
+    url: https://app.examplehq.com/dashboard/krp-bq6-362
+  - name: Common Operations
+    type: runbook
+    url: https://examplehq.atlassian.net/wiki/
+  - name: Disabling Deployments
+    type: runbook
+    url: https://examplehq.atlassian.net/wiki/
+  - name: Rolling Back Deployments
+    type: runbook
+    url: https://examplehq.atlassian.net/wiki/
+repos:
+  - name: Source
+    provider: github
+    url: https://github.com/Howsterz/service-catalog-definitions/frontend.yaml
+docs:
+  - name: Deployment Information
+    provider: link
+    url: https://docs.datadoghq.com/
+  - name: Service Documentation
+    provider: link
+    url: https://docs.datadoghq.com/
+tags: []
+integrations:
+    pagerduty: https://example.pagerduty.com/service-directory/XYZYX
